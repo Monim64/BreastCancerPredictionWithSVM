@@ -29,7 +29,7 @@ def ok_button_click():
             if answer == 2:
                 result = "You have Benign Tumor! Consult a doctor..."
             else:
-                result = "You have Malignant Cancer! Consult a doctor as soon as possible...."
+                result = "You have Malignant Cancer! Consult a doctor as soon as possible..."
 
         result_label.config(text=result)
     except:
